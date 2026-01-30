@@ -1,7 +1,7 @@
 # 🎯 ARCScore: Argument Representation and Coverage Analysis
 
 [![Paper](https://img.shields.io/badge/Paper-arXiv:2505.23654-b31b1b.svg)](https://arxiv.org/abs/2505.23654)
-[![Conference](https://img.shields.io/badge/EACL-2025-4b44ce.svg)](https://2025.eacl.org/)
+[![Conference](https://img.shields.io/badge/EACL-2026-4b44ce.svg)](https://2026.eacl.org/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
 **ARCScore** is an evaluation metric for zero-shot long document summarization with instruction-following LLMs. It measures how well a summary covers the atomic facts present in argument-annotated source documents by computing bottom-up recall across different argument components.
