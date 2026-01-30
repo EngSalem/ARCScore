@@ -22,7 +22,7 @@ ARCScore addresses a critical challenge in evaluating document summaries: measur
 
 ### How It Works
 
-![ARCScore Bottom-Up Architecture](figs/arc_bottom_up_enlarged.pdf)
+![ARCScore Bottom-Up Architecture](figs/arcscore.png)
 
 <!-- Alternative PNG format (convert PDF to PNG for better compatibility):
 ![ARCScore Bottom-Up Architecture](figs/arc_bottom_up_enlarged.png)
@@ -340,7 +340,7 @@ scorer = ARCScorer(
     verbose=True
 )
 
-# Local LLM (e.g., via VLLM )
+# Local LLM (e.g., via VLLM serve)
 scorer = ARCScorer(
     api_key="not-needed",
     base_url="http://localhost:1234/v1",
@@ -361,12 +361,12 @@ If you use ARCScore in your research, please cite our paper:
   author={Elaraby, Mohamed and Litman, Diane},
   journal={arXiv preprint arXiv:2505.23654},
   year={2025},
-  note={Accepted at EACL 2025 Main Conference}
+  note={Accepted at EACL 2026 Main Conference}
 }
 ```
 
 **Paper:** [arXiv:2505.23654](https://arxiv.org/abs/2505.23654)  
-**Conference:** EACL 2025 (Main Conference)
+**Conference:** EACL 2026 (Main Conference)
 
 ---
 
