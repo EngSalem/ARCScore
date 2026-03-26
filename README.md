@@ -356,12 +356,23 @@ scorer = ARCScorer(
 If you use ARCScore in your research, please cite our paper:
 
 ```bibtex
-@article{elaraby2025arc,
-  title={ARC: Argument Representation and Coverage Analysis for Zero-Shot Long Document Summarization with Instruction Following LLMs},
-  author={Elaraby, Mohamed and Litman, Diane},
-  journal={arXiv preprint arXiv:2505.23654},
-  year={2025},
-  note={Accepted at EACL 2026 Main Conference}
+@inproceedings{elaraby-litman-2026-arc,
+    title = "{ARC}: Argument Representation and Coverage Analysis for Zero-Shot Long Document Summarization with Instruction Following {LLM}s",
+    author = "Elaraby, Mohamed  and
+      Litman, Diane",
+    editor = "Demberg, Vera  and
+      Inui, Kentaro  and
+      Marquez, Llu{\'i}s",
+    booktitle = "Proceedings of the 19th Conference of the {E}uropean Chapter of the {A}ssociation for {C}omputational {L}inguistics (Volume 1: Long Papers)",
+    month = mar,
+    year = "2026",
+    address = "Rabat, Morocco",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2026.eacl-long.167/",
+    doi = "10.18653/v1/2026.eacl-long.167",
+    pages = "3626--3643",
+    ISBN = "979-8-89176-380-7",
+    abstract = "We introduce Argument Representation Coverage (ARC), a bottom-up evaluation framework that assesses how well summaries preserve structured salient arguments, a crucial issue in summarizing high-stakes domains such as law. ARC provides an interpretable lens by distinguishing between different information types to be covered and by separating omissions from factual errors.Using ARC, we evaluate summaries from eight open-weight LLMs in two domains where argument roles are central: long legal opinions and scientific articles. Our results show that while LLMs capture some salient roles, they frequently omit critical information, particularly when arguments are sparsely distributed across the input. Moreover, ARC uncovers systematic patterns{---}showing how context window positional bias and role-specific preferences shape argument coverage{---}providing actionable guidance for developing more complete and reliable summarization strategies."
 }
 ```
 
